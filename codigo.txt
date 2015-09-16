@@ -1,0 +1,27 @@
+string funcion(int a, int b, int l)
+{
+	int i
+	string honor
+	float c
+	i = a*b
+	for(j = 0; j <= l; j = j + 1)
+		switch(j)
+			case(10):
+				i = j * 2
+			case(15):
+				i = j - 2
+			case(20):
+				i = j / 4
+	c = a / b
+
+	if(c < 3.2)
+		 honor = "Normal"
+	if(c >= 3.2)
+		honor = "Cum Laude"
+	if(c >= 3.5)
+		honor = "Magna Laude"
+	if(c >= 3.8)
+		honor = "Suma Laude"
+
+	return honor
+}

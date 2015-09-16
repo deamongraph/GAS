@@ -1,0 +1,11 @@
+#include <stdio.h> 
+ int main()
+{
+	 int x;
+	 x=10;
+	if ( x>9){
+
+	printf("%s"," 'Es mayor que 10'");
+	}
+	return 0;
+}
